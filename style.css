@@ -1,19 +1,19 @@
-.container{
+.container {
     background-color: black;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.center{
+.center {
     position: absolute;
-    top:45%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-button{
+button {
     font-size: 15px;
     width: 50px;
     height: 50px;
@@ -24,11 +24,11 @@ button{
     cursor: pointer;
 }
 
-.row{
+.row {
     margin-bottom: 8px;
 }
 
-.row input{
+.row .input {
     font-size: 15px;
     text-align: right;
     background-color: white;
@@ -40,6 +40,15 @@ button{
     border: 2px solid black;
 }
 
-.lastRow button{
+.lastRow button {
     width: 233px;
+    background-color: rgb(183, 0, 0);
+}
+
+.row .symbols {
+    background-color: rgb(242, 195, 7);
+}
+
+.row .equal{
+    background-color: green;
 }
